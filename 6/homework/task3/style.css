@@ -1,0 +1,21 @@
+.container {
+    width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#picture {
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 900px;
+    height: 600px;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    font-size: 75px;
+    cursor: pointer;
+}
