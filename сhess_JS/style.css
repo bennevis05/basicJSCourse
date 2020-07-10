@@ -1,0 +1,48 @@
+table {
+    margin: 30px auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+td {
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    font-size: 56px;
+    border: 1px solid black;
+    cursor: grab;
+}
+.no-border {
+    font-size: 25px;
+    border: none;
+}
+.bg-color-brown {
+    background-color: #795548;
+}
+.bg-color-white {
+    background-color: #FFFFFF;
+}
+.right-side {
+    text-align: right;
+    padding-right: 10px;
+}
+.left-side {
+    text-align: right;
+    padding-right: 10px;
+/*    transform: rotate(180deg);*/
+}
+.bottom-side {
+    vertical-align: top;
+/*    transform: rotate(180deg);*/
+}
+.top-side {
+    vertical-align: top;
+}
+.low-height {
+    height: 20px;
+}
+.low-width {
+    width: 20px;
+}
+.active-cell {
+    outline: 3px solid red;
+}
